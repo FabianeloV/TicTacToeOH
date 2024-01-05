@@ -28,9 +28,9 @@ fun App() {
     var text by remember { mutableStateOf("") }
 
     if (test) {
-        text = "Hello, World!"
+        text = "Hello World!"
     } else {
-        text = "Hello, Desktop!"
+        text = "Hello Desktop!"
     }
 
     MaterialTheme {
